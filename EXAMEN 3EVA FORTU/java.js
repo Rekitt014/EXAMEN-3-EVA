@@ -40,12 +40,5 @@ boton_.classList.add("jugar");
 
 //menu hamburguesa
 
-//const  = document.getElementById("")
-//let  = document.getElementById("")
-//function desaparecer(){
-//    elementomenu.classList.toggle("desaparecer")
-//}
-
-//.addEventListener("click", desaparecer)
 boton_.addEventListener("click", agregarValor);
 
