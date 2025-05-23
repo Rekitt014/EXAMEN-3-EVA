@@ -1,0 +1,67 @@
+body {
+  font-family:Oswald, sans-serif;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#principal {
+  width: 400px;
+  text-align: center;
+}
+#mensaje{
+    color: white;
+    font-style: italic;
+}
+
+#mi_Input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#lista {
+  list-style: none;
+  padding: 0;
+}
+#boton1 {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+    background-color: #233E64;
+  }
+
+  #principal {
+    width: 100%;
+  }
+
+  #mi_Input {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.jugar {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Funcion desparecer para el menu hamburguesa */
+
+.desaparecer{
+    display : none
+}
